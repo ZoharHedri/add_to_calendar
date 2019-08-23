@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.react-add-to-calendar__dropdown ul {
+
+  list-style-type: none;
+  list-style-type: none;
+  margin: 0;
+  padding-inline-start: 20px;
+}
+
+.react-add-to-calendar__dropdown ul li .fa {
+  padding: 5px;
+}
+
+.dropdown ul {
+  list-style-type: none;
+  list-style-type: none;
+  margin: 0;
+  padding-inline-start: 20px;
+}
+
+
+.dropdown ul li .fa {
+  padding: 5px;
+}
