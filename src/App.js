@@ -93,7 +93,7 @@ class App extends Component {
 
 
   getUrl_google(data) {
-    var url = 'https://www.google.com/calendar/event?action=TEMPLATE';
+    var url = 'https://www.google.com/calendar/render?action=TEMPLATE'; //insted 'event?' it is now 'render?' (21.3.21)
     url += '&text=' + encodeURIComponent(data.title);
     url += '&details=' + encodeURIComponent(data.desc);
     url += '&location=' + encodeURIComponent(data.location);
